@@ -1,0 +1,17 @@
+Politica de Privacidade do NovaEduc
+
+O aplicativo NovaEduc foi projetado para operar com coleta minima de dados,
+limitada ao que for necessario para autenticacao, uso das funcionalidades
+educacionais e comunicacao com os servicos contratados pela instituicao
+responsavel.
+
+O aplicativo utiliza conexao de rede quando necessario para sincronizar
+informacoes, autenticar usuarios e acessar recursos vinculados ao ambiente da
+instituicao. Nao ha comercializacao de dados pessoais pelo NovaEduc.
+
+Caso a instituicao contratante habilite funcionalidades adicionais, o
+tratamento de dados seguira as regras operacionais e legais aplicaveis a esse
+ambiente de uso.
+
+Para duvidas sobre privacidade e tratamento de dados, entre em contato pelo
+e-mail inovacidadania@gmail.com.
