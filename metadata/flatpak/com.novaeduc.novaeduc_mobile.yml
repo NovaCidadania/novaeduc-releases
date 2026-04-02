@@ -1,0 +1,58 @@
+app-id: com.novaeduc.novaeduc_mobile
+runtime: org.gnome.Platform
+runtime-version: "48"
+sdk: org.gnome.Sdk
+command: novaeduc_mobile
+
+finish-args:
+  - --share=ipc
+  - --share=network
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+
+cleanup:
+  - /flatpak-pub-cache
+
+build-options:
+  env:
+    PUB_CACHE: /run/build/novaeduc-mobile/.pub-cache
+    XDG_CACHE_HOME: /run/build/novaeduc-mobile/.cache
+    HOME: /run/build/novaeduc-mobile/home
+    CI: "true"
+    PUB_ENVIRONMENT: flutter_bot:flatpak
+    FLUTTER_ROOT: /run/build/novaeduc-mobile/flutter-sdk
+  prepend-path: /run/build/novaeduc-mobile/flutter-sdk/bin
+
+modules:
+  - generated-pub-cache.yml
+  - name: novaeduc-mobile
+    buildsystem: simple
+    build-commands:
+      - mkdir -p "$HOME" "$PUB_CACHE" "$XDG_CACHE_HOME"
+      - cp -a /app/flatpak-pub-cache/. "$PUB_CACHE"/
+      - flutter --disable-analytics config --no-analytics --enable-linux-desktop
+      - cd source/mobile && flutter pub get --offline
+      - cd source/mobile && flutter build linux --release
+      - install -Dm755 source/mobile/build/linux/x64/release/bundle/novaeduc_mobile /app/novaeduc_mobile
+      - printf '#!/bin/sh\ncd /app\nexec /app/novaeduc_mobile "$@"\n' > novaeduc_mobile-launcher
+      - install -Dm755 novaeduc_mobile-launcher /app/bin/novaeduc_mobile
+      - cp -a source/mobile/build/linux/x64/release/bundle/lib /app/
+      - cp -a source/mobile/build/linux/x64/release/bundle/data /app/
+      - install -Dm644 source/mobile/packaging/flatpak/com.novaeduc.novaeduc_mobile.desktop /app/share/applications/com.novaeduc.novaeduc_mobile.desktop
+      - install -Dm644 source/mobile/packaging/flatpak/com.novaeduc.novaeduc_mobile.metainfo.xml /app/share/metainfo/com.novaeduc.novaeduc_mobile.metainfo.xml
+      - install -Dm644 source/mobile/packaging/flatpak/icons/hicolor/128x128/apps/com.novaeduc.novaeduc_mobile.png /app/share/icons/hicolor/128x128/apps/com.novaeduc.novaeduc_mobile.png
+      - install -Dm644 source/mobile/packaging/flatpak/icons/hicolor/256x256/apps/com.novaeduc.novaeduc_mobile.png /app/share/icons/hicolor/256x256/apps/com.novaeduc.novaeduc_mobile.png
+      - install -Dm644 source/mobile/packaging/flatpak/icons/hicolor/512x512/apps/com.novaeduc.novaeduc_mobile.png /app/share/icons/hicolor/512x512/apps/com.novaeduc.novaeduc_mobile.png
+      - install -Dm644 source/mobile/packaging/flatpak/LICENSE /app/share/licenses/com.novaeduc.novaeduc_mobile/LICENSE
+    sources:
+      - type: archive
+        url: https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.4-stable.tar.xz
+        sha256: c9c4e741ebcf83ee88303404176f7e22c3b6abfc8e9d60781098b6d4104327a9
+        dest: flutter-sdk
+        strip-components: 1
+      - type: archive
+        url: https://raw.githubusercontent.com/NovaCidadania/novaeduc-releases/master/source/v1.0.0/novaeduc-1.0.0.tar.gz
+        sha256: fff0e5f7d810c9ef77de706e74550b60fd40c41e07a6766bf8bfbe11c19bef80
+        dest: source
+        strip-components: 1
