@@ -1,0 +1,4 @@
+1a2bda8d5dcc2ef01e2a21f4f2dc1fb14166fd906fea3fac722e88cc9650888a  android/novaeduc-hml-android-1.2.5.apk
+52fb7790b98d5bf8c93c8527b58bdffeda46541daa8afdbf3855aa15c8dc3e7e  android/novaeduc-hml-android-1.2.5.aab
+8cc51d9dc603bd59b11480aa4437f1def134b297991ea01c8e381fe125523a4b  flatpak/novaeduc-hml-linux-1.2.5.tar.gz
+0bb2e0b39274437a81e24609f2230f21bbcdc52477713fee61cf4df6f5bb5424  source/novaeduc-hml-source-1.2.5.tar.gz
