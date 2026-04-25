@@ -2,3 +2,4 @@
 06e4e5c1b48283412e393fe3294be26aa95b5bc4aafaeec364a7b3f4d9e86b28  android/novaeduc-prd-android-1.0.0.aab
 952abd82417fb6c745b8b6061f2cdddc62b99f8baf696dcbdadca4bd376e2125  linux/novaeduc-prd-linux-1.0.0.tar.gz
 980a9c8abf2766799c1eff29d9bd338ab0f776630657af6fee50ea606eb4df34  source/novaeduc-prd-source-1.0.0.tar.gz
+79e16e70f83c91245a46154b9c45e40abe97d82a80039c438976cd5d287cab02  windows/novaeduc-prd-windows-1.0.0.zip

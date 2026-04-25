@@ -1,29 +1,33 @@
-{
-  "version": "1.0.0",
-  "tag": "v1.0.0",
-  "environment": "prd",
-  "runtime_environment": "production",
-  "visibility": "public",
-  "build_number": 10000002,
-  "commit": "0411bd6e0e4de1ac7bcf2eb6997660fa882f599a",
-  "created_at": "2026-04-24T22:09:51Z",
-  "discovery_api_base_url": "https://api.novaed.com.br",
-  "artifacts": {
-    "apk": {
-      "path": "android/novaeduc-prd-android-1.0.0.apk",
-      "sha256": "9ffbffdacd8e2184efbde26a082bb713c0464817d044d15eefac2d99ae172f86"
-    },
-    "aab": {
-      "path": "android/novaeduc-prd-android-1.0.0.aab",
-      "sha256": "06e4e5c1b48283412e393fe3294be26aa95b5bc4aafaeec364a7b3f4d9e86b28"
-    },
-    "linux_bundle": {
-      "path": "linux/novaeduc-prd-linux-1.0.0.tar.gz",
-      "sha256": "952abd82417fb6c745b8b6061f2cdddc62b99f8baf696dcbdadca4bd376e2125"
-    },
-    "source": {
-      "path": "source/novaeduc-prd-source-1.0.0.tar.gz",
-      "sha256": "980a9c8abf2766799c1eff29d9bd338ab0f776630657af6fee50ea606eb4df34"
-    }
-  }
+﻿{
+    "version":  "1.0.0",
+    "tag":  "v1.0.0",
+    "environment":  "prd",
+    "runtime_environment":  "production",
+    "visibility":  "public",
+    "build_number":  10000002,
+    "commit":  "0411bd6e0e4de1ac7bcf2eb6997660fa882f599a",
+    "created_at":  "2026-04-24T22:09:51Z",
+    "discovery_api_base_url":  "https://api.novaed.com.br",
+    "artifacts":  {
+                      "apk":  {
+                                  "path":  "android/novaeduc-prd-android-1.0.0.apk",
+                                  "sha256":  "9ffbffdacd8e2184efbde26a082bb713c0464817d044d15eefac2d99ae172f86"
+                              },
+                      "aab":  {
+                                  "path":  "android/novaeduc-prd-android-1.0.0.aab",
+                                  "sha256":  "06e4e5c1b48283412e393fe3294be26aa95b5bc4aafaeec364a7b3f4d9e86b28"
+                              },
+                      "linux_bundle":  {
+                                           "path":  "linux/novaeduc-prd-linux-1.0.0.tar.gz",
+                                           "sha256":  "952abd82417fb6c745b8b6061f2cdddc62b99f8baf696dcbdadca4bd376e2125"
+                                       },
+                      "source":  {
+                                     "path":  "source/novaeduc-prd-source-1.0.0.tar.gz",
+                                     "sha256":  "980a9c8abf2766799c1eff29d9bd338ab0f776630657af6fee50ea606eb4df34"
+                                 },
+                      "windows_bundle":  {
+                                             "path":  "windows/novaeduc-prd-windows-1.0.0.zip",
+                                             "sha256":  "79e16e70f83c91245a46154b9c45e40abe97d82a80039c438976cd5d287cab02"
+                                         }
+                  }
 }
