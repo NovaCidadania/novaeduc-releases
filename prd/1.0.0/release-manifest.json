@@ -32,6 +32,10 @@
     "macos_bundle": {
       "path": "macos/novaeduc-prd-macos-1.0.0.tar.gz",
       "sha256": "46f03b6b9d6a0adfebb931a790e59d368ae6bb94e3fe494a5289f1826ee7f705"
+    },
+    "ios_bundle": {
+      "path": "ios/novaeduc-prd-ios-1.0.0.ipa",
+      "sha256": "8a1c868a6af0decb8887d00c6aae387dccb209a3ac082e8bffa1bfa34eecb21b"
     }
   }
 }
