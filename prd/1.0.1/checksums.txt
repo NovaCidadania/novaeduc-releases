@@ -1,0 +1,4 @@
+46287c7697128f0208e9c472efaff42e8de90265f9abaf4b1c77b4d5bc538ba5  android/novaeduc.apk
+6c4825748542b87061d0fbfb04da50aa0ae887cc361446ac99d911445cd0b35b  android/novaeduc.aab
+912988a8a590d88f5d36cc370b8754d9efba33dff2b0747bf057ccdf1451eb82  linux/novaeduc.bin
+4e0b9dc2131957bbc18536508c1b801e53308ead4e2dc6544638df0ce7a96440  source/novaeduc-prd-source-1.0.1.tar.gz

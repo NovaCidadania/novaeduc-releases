@@ -1,0 +1,6 @@
+{
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "manifest": "prd/1.0.1/release-manifest.json",
+  "checksums": "prd/1.0.1/checksums.txt"
+}
