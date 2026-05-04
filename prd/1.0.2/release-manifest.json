@@ -1,0 +1,29 @@
+{
+  "version": "1.0.2",
+  "tag": "v1.0.2",
+  "environment": "prd",
+  "runtime_environment": "production",
+  "visibility": "public",
+  "build_number": 10000022,
+  "commit": "9279751fbf1cefe62f7441de52acb4d1bcd83cdd",
+  "created_at": "2026-05-04T00:50:22Z",
+  "discovery_api_base_url": "https://api.novaed.com.br",
+  "artifacts": {
+    "apk": {
+      "path": "android/novaeduc.apk",
+      "sha256": "deedb5314843743a03b7b0226d9d7db2bca7081e277f8bf7aef04f272ae1277e"
+    },
+    "aab": {
+      "path": "android/novaeduc.aab",
+      "sha256": "b9ee2345a9ba77d4fcc9df967b704af31377dc2f79894c98488ebd5f2f6fa3bf"
+    },
+    "linux_bundle": {
+      "path": "linux/novaeduc.bin",
+      "sha256": "6159f0c65cf0608044f298766af1b2de32541523f72f087165f1c2e53927f4c3"
+    },
+    "source": {
+      "path": "source/novaeduc-prd-source-1.0.2.tar.gz",
+      "sha256": "ef3ccb9ee68e2cc62f7726884f99232c007d9f9c80945b82865b62fd7e671522"
+    }
+  }
+}
