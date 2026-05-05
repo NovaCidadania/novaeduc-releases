@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "tag": "v1.0.4",
-  "manifest": "prd/1.0.4/release-manifest.json",
-  "checksums": "prd/1.0.4/checksums.txt"
+  "version": "1.0.5",
+  "tag": "v1.0.5",
+  "manifest": "prd/1.0.5/release-manifest.json",
+  "checksums": "prd/1.0.5/checksums.txt"
 }
