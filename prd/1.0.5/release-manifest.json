@@ -9,6 +9,10 @@
   "created_at": "2026-05-05T10:52:16Z",
   "discovery_api_base_url": "https://api.novaed.com.br",
   "artifacts": {
+    "macos_bundle": {
+      "path": "macos/novaeduc.dmg",
+      "sha256": "c8085a276956f74b12b97db25cebb696c3cf7d70f4f7283f2861440cb88d7b5d"
+    },
     "ios_ipa": {
       "path": "ios/novaeduc.ipa",
       "sha256": "e25b5148d9b4ce96b666d64c97852cb0bfe929ed0ff6d60e2130acc65309103b"
