@@ -6,16 +6,32 @@
   "visibility": "public",
   "build_number": 10000062,
   "commit": "2e438f92452a2b8674f31e7b6a44e36256d30ad5",
-  "created_at": "2026-05-06T15:10:38Z",
+  "created_at": "2026-05-06T15:12:45Z",
   "discovery_api_base_url": "https://api.novaed.com.br",
   "artifacts": {
+    "apk": {
+      "path": "android/novaeduc.apk",
+      "sha256": "b084e317dccce83c7066ba1ae26ae848d81e32720d7cce72d17ee4ac7f597228"
+    },
+    "aab": {
+      "path": "android/novaeduc.aab",
+      "sha256": "fc7f4a71d27c3fabc9baae084f26d32ebee1fb433171e45adf8bf866a14a2307"
+    },
     "ios_bundle": {
       "path": "ios/novaeduc.ipa",
       "sha256": "34d9bd08e592e1816dcb038f000ca82c9caf600b6fbe0ea6a4de6237de128b08"
     },
+    "linux_bundle": {
+      "path": "linux/novaeduc.bin",
+      "sha256": "f6194438b11903674e9d6a53920712b3e9fac86320e77807bf1a49d93bd73bcd"
+    },
     "macos_bundle": {
       "path": "macos/novaeduc.dmg",
       "sha256": "1c49702c3aef757241276896bdd897810be0ad9766dc07c8652c6ed5ff0c7976"
+    },
+    "windows_bundle": {
+      "path": "windows/novaeduc-prd-windows-1.0.6.zip",
+      "sha256": "b0622409fb1ea3ced9dfdb227baba01e2d1b2d9caeae14026428ffc8cd4cd45d"
     },
     "source": {
       "path": "source/novaeduc-prd-source-1.0.6.tar.gz",
