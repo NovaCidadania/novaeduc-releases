@@ -1,4 +1,5 @@
 064d0a9b1bf297d131296387b196175aff9aeea537ec39c3f9a2f205e837eebe  android/novaeduc-hml-android-1.1.1.apk
 f7d58a04f11597987cb4851149c36a035ba21bcda486a04afe5be5ee3dcc7f2e  android/novaeduc-hml-android-1.1.1.aab
 f65a6e8fad4c9559a9e49309a2afa61d921222a3845eb623e7053aa0b6589ab6  linux/novaeduc-hml-linux-1.1.1.tar.gz
-c1dd9fab6f1650166a2650a74cbd1d38381d248f344b8d54a662a6d675adf800  source/novaeduc-hml-source-1.1.1.tar.gz
+3ca9923f8a1ad1ad0afe7319ec50931e5d35b2591db7ff6b1e5513ac9fb09f0f  macos/novaeduc-hml-macos-1.1.1.dmg
+9e9b17176186259d5d5f1a8abe47bb5a4972be9dda156283f33712397ad7832d  source/novaeduc-hml-source-1.1.1.tar.gz

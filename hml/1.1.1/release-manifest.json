@@ -6,7 +6,7 @@
   "visibility": "prerelease",
   "build_number": 10010011,
   "commit": "4897cd432430937f392fb3cbeeda13bebc7a2e1d",
-  "created_at": "2026-08-25T16:45:48Z",
+  "created_at": "2026-08-25T21:12:45Z",
   "discovery_api_base_url": "https://api.hml.novaed.com.br",
   "artifacts": {
     "apk": {
@@ -21,9 +21,13 @@
       "path": "linux/novaeduc-hml-linux-1.1.1.tar.gz",
       "sha256": "f65a6e8fad4c9559a9e49309a2afa61d921222a3845eb623e7053aa0b6589ab6"
     },
+    "macos_bundle": {
+      "path": "macos/novaeduc-hml-macos-1.1.1.dmg",
+      "sha256": "3ca9923f8a1ad1ad0afe7319ec50931e5d35b2591db7ff6b1e5513ac9fb09f0f"
+    },
     "source": {
       "path": "source/novaeduc-hml-source-1.1.1.tar.gz",
-      "sha256": "c1dd9fab6f1650166a2650a74cbd1d38381d248f344b8d54a662a6d675adf800"
+      "sha256": "9e9b17176186259d5d5f1a8abe47bb5a4972be9dda156283f33712397ad7832d"
     }
   }
 }
