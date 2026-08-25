@@ -1,0 +1,29 @@
+{
+  "version": "1.1.1",
+  "tag": "hml-1.1.1",
+  "environment": "hml",
+  "runtime_environment": "staging",
+  "visibility": "prerelease",
+  "build_number": 10010011,
+  "commit": "4897cd432430937f392fb3cbeeda13bebc7a2e1d",
+  "created_at": "2026-08-25T16:45:48Z",
+  "discovery_api_base_url": "https://api.hml.novaed.com.br",
+  "artifacts": {
+    "apk": {
+      "path": "android/novaeduc-hml-android-1.1.1.apk",
+      "sha256": "064d0a9b1bf297d131296387b196175aff9aeea537ec39c3f9a2f205e837eebe"
+    },
+    "aab": {
+      "path": "android/novaeduc-hml-android-1.1.1.aab",
+      "sha256": "f7d58a04f11597987cb4851149c36a035ba21bcda486a04afe5be5ee3dcc7f2e"
+    },
+    "linux_bundle": {
+      "path": "linux/novaeduc-hml-linux-1.1.1.tar.gz",
+      "sha256": "f65a6e8fad4c9559a9e49309a2afa61d921222a3845eb623e7053aa0b6589ab6"
+    },
+    "source": {
+      "path": "source/novaeduc-hml-source-1.1.1.tar.gz",
+      "sha256": "c1dd9fab6f1650166a2650a74cbd1d38381d248f344b8d54a662a6d675adf800"
+    }
+  }
+}
