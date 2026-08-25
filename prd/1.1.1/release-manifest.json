@@ -6,7 +6,7 @@
   "visibility": "public",
   "build_number": 10010012,
   "commit": "1e49f8679a0d538fbf1abc2982f1999340c9d45f",
-  "created_at": "2026-08-25T16:59:55Z",
+  "created_at": "2026-08-25T21:27:59Z",
   "discovery_api_base_url": "https://api.novaed.com.br",
   "artifacts": {
     "apk": {
@@ -21,9 +21,13 @@
       "path": "linux/novaeduc.bin",
       "sha256": "98ee8eb59d75bfb0c6536754b2b22901c2864c9e8d3d33328e97be6e2f1425a2"
     },
+    "macos_bundle": {
+      "path": "macos/novaeduc.dmg",
+      "sha256": "a915bca626c7ea57b647ea6b2ebb68995983d0d3bbd143e6387857d3637add9f"
+    },
     "source": {
       "path": "source/novaeduc-prd-source-1.1.1.tar.gz",
-      "sha256": "c1dd9fab6f1650166a2650a74cbd1d38381d248f344b8d54a662a6d675adf800"
+      "sha256": "9e9b17176186259d5d5f1a8abe47bb5a4972be9dda156283f33712397ad7832d"
     }
   }
 }
