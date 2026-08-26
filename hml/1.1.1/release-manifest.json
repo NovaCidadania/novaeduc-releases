@@ -28,6 +28,10 @@
     "source": {
       "path": "source/novaeduc-hml-source-1.1.1.tar.gz",
       "sha256": "9e9b17176186259d5d5f1a8abe47bb5a4972be9dda156283f33712397ad7832d"
+    },
+    "windows_bundle": {
+      "path": "windows/novaeduc-hml-windows-1.1.1.zip",
+      "sha256": "cadafa396e7e10d5659ee4405fa4c6c33caf92d46fccdf3c749d07d00ca5768d"
     }
   }
 }
