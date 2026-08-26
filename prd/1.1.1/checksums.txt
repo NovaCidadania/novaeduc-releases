@@ -3,3 +3,4 @@ df2f2688e0492d8cb9761219d233ebf6f86e5c7327677d629ca4f3cf577c96da  android/novaed
 98ee8eb59d75bfb0c6536754b2b22901c2864c9e8d3d33328e97be6e2f1425a2  linux/novaeduc.bin
 a915bca626c7ea57b647ea6b2ebb68995983d0d3bbd143e6387857d3637add9f  macos/novaeduc.dmg
 9e9b17176186259d5d5f1a8abe47bb5a4972be9dda156283f33712397ad7832d  source/novaeduc-prd-source-1.1.1.tar.gz
+ff6320bea4ff9d1adf3ba2fb74e63a048094569da1fa1af92e487aff40f439aa  windows/novaeduc-prd-windows-1.1.1.zip

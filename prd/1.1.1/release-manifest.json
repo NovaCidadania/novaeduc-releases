@@ -28,6 +28,10 @@
     "source": {
       "path": "source/novaeduc-prd-source-1.1.1.tar.gz",
       "sha256": "9e9b17176186259d5d5f1a8abe47bb5a4972be9dda156283f33712397ad7832d"
+    },
+    "windows_bundle": {
+      "path": "windows/novaeduc-prd-windows-1.1.1.zip",
+      "sha256": "ff6320bea4ff9d1adf3ba2fb74e63a048094569da1fa1af92e487aff40f439aa"
     }
   }
 }
